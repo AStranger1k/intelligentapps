@@ -4,10 +4,10 @@ $assets_ver = '01';
 require_once 'functions.php';
 
 //EDIT THIS TO YOUR DOMAIN. DO NOT INCLUDE A TRAILING SLASH
-$domain = 'https://apply.intelligencehosting.com';
+$domain = 'https://YOURDOMAIN.TLD';
 define("DOMAIN", $domain);
 
-// REGULAR USERS SHOULD NOT TOUCH THIS. DEVELOPER ONLY.
+// DO NOT EDIT PAST THIS POINT.
 $demo = false;
 
 //Global Config
