@@ -14,8 +14,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$client_id = "662699089066065951";
-$client_secret = "uavhUmZ-iuXX7VAikVlI14lrcT2T_QTP";
+$client_id = "";
+$client_secret = "";
 
 if (isset($_GET["error"])) {
     notify('danger', 'Sorry! The Discord API experienced an error while attempting to link your account. Please try again.', DOMAIN.'/index');
@@ -59,7 +59,7 @@ if (isset($_GET["error"])) {
         $result = $pdo->prepare($sql)->execute([$_SESSION['discord_id'], 'https://cdn.discordapp.com/avatars/'.$_SESSION['discord_id'].'/'.$_SESSION['user_avatar'].'.png', $_SESSION['user_id']]);
 
         if ($result) {
-            notify('success', 'Your discord account has been successfully linked to your IHSAS account!', DOMAIN.'/index');
+            notify('success', 'Your Discord account has been successfully linked to your IHSAS account!', DOMAIN.'/index');
         } else {
             notify('danger', 'Sorry! We experienced an error while attempting to link your account. Please try again.', DOMAIN.'/index');
         }
