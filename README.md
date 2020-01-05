@@ -4,7 +4,7 @@ Firstly, thank you for checking out intelligentapps! intelligentapps was built w
 # Disclaimer
 intelligentapps is originally forked from https://github.com/ezappsdev/application-system
 We try to keep this fork as close to the original souce as possible. When Tyler updates ezApps, We will update intelligentapps if it is a critical update (e.g. Bug Fixes, New features etc)
-A list of our modifications is listed at: 
+A list of our modifications is available [here](https://github.com/IntelligenceHosting/intelligentapps/wiki/Modifications-to-Source-Code)
 
 # Bugs
 If you find a bug, please report it using GitHub's "Issues" feature. *Please ensure you choose the correct label "Bug" when creating the issue, or it'll be closed.*
