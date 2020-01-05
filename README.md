@@ -2,7 +2,7 @@
 Firstly, thank you for checking out intelligentapps! intelligentapps was built with simplicity in mind. The development team has worked extremely hard to make everything for the user both admin and regular easy as easy as possible.
 
 # Disclaimer
-intelligentapps is originally forked from https://github.com/ezappsdev/application-system
+intelligentapps is originally forked from [Tyler's ezApps project](https://github.com/ezappsdev/application-system)
 We try to keep this fork as close to the original souce as possible. When Tyler updates ezApps, We will update intelligentapps if it is a critical update (e.g. Bug Fixes, New features etc)
 A list of our modifications is available [here](https://github.com/IntelligenceHosting/intelligentapps/wiki/Modifications-to-Source-Code)
 
