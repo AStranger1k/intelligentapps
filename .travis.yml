@@ -1,2 +1,5 @@
+language: php
+rvm:
+ - 7.4.1
 notifications:
   webhooks: https://discordapp.com/api/webhooks/664155092911521802/4AyYUqwcHZEb0FUYr6lqpFGBOGM7Czp-PraUhN0RTIktNtsm78eWKuceiMNU_ry99NGM
